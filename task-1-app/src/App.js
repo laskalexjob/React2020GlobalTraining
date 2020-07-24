@@ -26,10 +26,13 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         
+        {React.createElement('div',null, "Hello from createElem method")}
+        
         <StrictComponent/>
         <MyPureComponent/>
         <LambdaFuncComp/>
         <FunctionalComp/>
+
       </header>
     </div>
   );
