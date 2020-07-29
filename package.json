@@ -1,0 +1,37 @@
+{
+  "name": "react2020globaltraining",
+  "version": "1.0.0",
+  "description": "Task2",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "webpack-dev-server --open --hot",
+    "build": "webpack --mode development",
+    "prod": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laskalexjob/React2020GlobalTraining.git"
+  },
+  "author": "Aliaksandr Laskauneu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laskalexjob/React2020GlobalTraining/issues"
+  },
+  "homepage": "https://github.com/laskalexjob/React2020GlobalTraining#readme",
+  "dependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.1.0",
+    "jest": "^26.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.1",
+    "react-router": "^5.2.0",
+    "redux": "^4.0.5",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
